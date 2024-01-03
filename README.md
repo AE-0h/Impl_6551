@@ -44,7 +44,8 @@ ERC-1167 Footer (15 bytes)
 <tokenId (uint256)> (32 bytes)
 For example, the token bound account with implementation address (0xbebebebebebebebebebebebebebebebebebebebe) salt (0), chain ID (1), token contract (0xcfccfccfccfccfccfccfccfccfccfccfccfccfcc) and token ID (123) would have the following deployed bytecode:
 
-```ebebebebebebebebebebebebe5af43d8230e930d91602b57fd5bf300000000000000000000000000
+```
+ebebebebebebebebebebebebe5af43d8230e930d91602b57fd5bf300000000000000000000000000
 
 ```
 
