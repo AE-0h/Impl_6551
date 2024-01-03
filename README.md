@@ -49,6 +49,16 @@ ebebebebebebebebebebebebe5af43d8230e930d91602b57fd5bf300000000000000000000000000
 
 ```
 
+# Account Interface
+
+All token bound accounts SHOULD be created via the singleton registry.
+All token bound account implementations MUST implement ERC-165 interface detection.
+All token bound account implementations MUST implement ERC-1271 signature validation.
+
+# Execution Interface
+
+All token bound accounts MUST implement an execution interface which allows valid signers to execute arbitrary operations on behalf of the account. Support for an execution interface MUST be signaled by the account using ERC-165 interface detection.
+
 ### Build
 
 ```shell
